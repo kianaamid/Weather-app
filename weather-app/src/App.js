@@ -1,4 +1,5 @@
 import "./App.css";
+import Weather from "./components/Weather";
 import DefaultHomePageImage from "./images/home-page.jpg";
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
         backgroundSize: "cover",
         height: "940px",
       }}
-    ></div>
+    >
+      <Weather />
+    </div>
   );
 }
 
